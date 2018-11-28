@@ -1,0 +1,51 @@
+.Navigation{
+	margin:50px 100px 30px 0px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.btn-filter{
+	color: #FF8C00;
+	background-color: transparent;
+	text-align: center;
+	border: 1px solid #FF8C00;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	border-radius: 3px;
+	min-height: 5vh;
+	width: 20%;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+#drop_down {
+	height: 5vh;
+	width: 30%;
+	cursor: pointer;
+	font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+	text-align: center;
+	border-radius: 3px;
+	margin-left:30px;
+	border:1px solid black;
+}
+
+#search_area {
+	height: 4vh;
+	width: 35%;
+    padding-left: 8px;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border:1px solid black;
+    border-radius: 3px;      
+}
+
+.overall {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.logo {
+	display: flex;
+	margin-top: 35px;
+	max-height: 60px;
+	margin-left: 80px;
+}
